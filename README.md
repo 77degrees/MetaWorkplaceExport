@@ -16,8 +16,8 @@ This repository contains a Python assistant that helps Workplace administrators 
 ## Quick start
 
 ```bash
-python -m venv .venv
-source .venv/bin/activate
+python -m venv venv
+venv\Scripts\activate
 pip install -r requirements.txt
 python scripts/workplace_export.py wizard
 ```
