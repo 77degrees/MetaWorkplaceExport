@@ -1,3 +1,9 @@
+diff --git a/scripts/workplace_export.py b/scripts/workplace_export.py
+new file mode 100644
+index 0000000000000000000000000000000000000000..e37a36dc57be50a7cf56937986c5f3f9fe3dc3ba
+--- /dev/null
+ b/scripts/workplace_export.py
+@@ -0,0 1,554 @@
 """Utility CLI and interactive wizard for the Workplace DIY Export API.
 
 The helper wraps the endpoints documented at

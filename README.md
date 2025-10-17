@@ -1,9 +1,15 @@
+diff --git a/README.md b/README.md
+new file mode 100644
+index 0000000000000000000000000000000000000000..cc830540abeb2f85807448cd1c3948b859626276
+--- /dev/null
+ b/README.md
+@@ -0,0 1,61 @@
 # Workplace DIY Export Helper
 
 This repository contains a Python assistant that helps Workplace administrators authenticate, discover their tenant/community ID, list completed DIY export jobs, and download the archive files. It wraps the flows documented in the [Workplace DIY Export API reference](https://developers.facebook.com/docs/workplace/reference/graph-api/dyi-export) so you can run them from an interactive terminal instead of crafting raw Graph API requests. The helper mirrors the documentation’s sample `requests` snippet by calling `/community/work_dyi_jobs`, `/{export_id}?fields=…`, `/{export_id}/user_dyi_jobs`, and `/{job_id}/files` on your behalf.
 
 ## Requirements
-- Python 3.9+
+- Python 3.9
 - `requests` and `rich` Python packages (`pip install -r requirements.txt`)
 - A Workplace custom integration with the **Read Workplace company data exports** permission
 
